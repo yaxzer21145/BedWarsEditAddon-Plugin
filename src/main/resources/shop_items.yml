@@ -1,0 +1,68 @@
+# 商店物品配置
+# 注意: 所有物品都使用经验等级作为货币
+
+# 自救平台
+self_rescue_platform:
+  material: BLAZE_ROD
+  name: "&c自救平台"
+  lore:
+    - "&7右键使用"
+    - "&7在脚底生成粘液块平台"
+    - "&7冷却时间: 20秒"
+    - ""
+    - "&e价格: &b8 经验等级"
+  price:
+    type: EXP_LEVEL
+    amount: 8
+  category: TOOLS
+  slot: 1
+
+# 降落伞
+parachute:
+  material: FEATHER
+  name: "&a降落伞"
+  lore:
+    - "&7右键使用"
+    - "&7迅速向上飞行50格"
+    - "&7然后缓慢下落"
+    - ""
+    - "&e价格: &b40 经验等级"
+  price:
+    type: EXP_LEVEL
+    amount: 40
+  category: TOOLS
+  slot: 2
+
+# 魔法羊毛
+magic_wool:
+  material: WHITE_WOOL
+  data: 0
+  enchanted: true
+  name: "&b魔法羊毛"
+  lore:
+    - "&7右键使用"
+    - "&7延伸5格搭路"
+    - "&7附魔羊毛材质"
+    - ""
+    - "&e价格: &b100 经验等级"
+  price:
+    type: EXP_LEVEL
+    amount: 100
+  category: BLOCKS
+  slot: 3
+
+# 回城卷轴
+return_scroll:
+  material: GUNPOWDER
+  name: "&6回城卷轴"
+  lore:
+    - "&7右键使用"
+    - "&75秒后传送回出生点"
+    - "&7移动或再次右键取消"
+    - ""
+    - "&e价格: &b200 经验等级"
+  price:
+    type: EXP_LEVEL
+    amount: 200
+  category: TOOLS
+  slot: 4

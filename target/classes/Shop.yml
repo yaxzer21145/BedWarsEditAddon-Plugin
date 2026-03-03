@@ -1,0 +1,23 @@
+# 商店配置
+
+# 自救平台配置
+self_rescue_platform:
+  cooldown: 20 # 冷却时间（秒）
+  cooldown_message: "&c自救平台冷却中，还需 %time% 秒"
+
+# 降落伞配置
+parachute:
+  flight_height: 50 # 飞行高度
+  enabled: true
+
+# 魔法羊毛配置
+magic_wool:
+  extend_distance: 5 # 延伸距离
+  enabled: true
+
+# 回城卷轴配置
+return_scroll:
+  cooldown: 30 # 冷却时间（秒）
+  cooldown_message: "&c回城卷轴冷却中，还需 %time% 秒"
+  countdown: 5 # 倒计时（秒）
+  enabled: true

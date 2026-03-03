@@ -1,0 +1,54 @@
+# Message Configuration File
+
+# General messages
+general:
+  prefix: "&e[BedWarsYA] &r"
+  no_permission: "&cYou don't have permission to execute this command"
+  player_only: "&cThis command can only be executed by players"
+
+# Resource to exp messages
+resource_to_exp:
+  enabled: true
+  message: "&aYou gained %xp% experience points"
+
+# Health add messages
+health_add:
+  enabled: true
+  title: "&cHealth Recovery"
+  subtitle: "&aYou gained additional health"
+  message: "&e[BedWars] &aAll players gained additional health!"
+
+# Items messages
+items:
+  self_rescue_platform:
+    used: "&aYou used Self Rescue Platform"
+    cooldown: "&cSelf Rescue Platform is on cooldown, remaining: %time% seconds"
+  parachute:
+    used: "&aYou used Parachute"
+  magic_wool:
+    used: "&aYou used Magic Wool"
+  return_scroll:
+    used: "&aYou used Return Scroll"
+    cancelled: "&cReturn cancelled"
+    success: "&aYou successfully returned to spawn"
+    cooldown: "&cReturn Scroll is on cooldown, remaining: %time% seconds"
+
+# Combat system messages
+combat_system:
+  level_up: "&aCongratulations on leveling up!"
+  new_level: "&eYou are now %level%"
+
+# Variable messages
+variables:
+  error: "&cVariable parsing error"
+
+# Shop messages
+shop:
+  item_added: "&aItem added to shop"
+  item_removed: "&aItem removed from shop"
+
+# Language messages
+language:
+  changed: "&aLanguage changed to %lang%"
+  not_supported: "&cLanguage %lang% is not supported"
+  current: "&aCurrent language: %lang%"

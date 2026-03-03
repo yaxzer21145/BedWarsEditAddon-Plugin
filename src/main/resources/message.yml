@@ -1,0 +1,54 @@
+# 消息配置文件
+
+# 通用消息
+general:
+  prefix: "&e[BedWarsYA] &r"
+  no_permission: "&c你没有权限执行此操作"
+  player_only: "&c此命令只能由玩家执行"
+
+# 资源转换消息
+resource_to_exp:
+  enabled: true
+  message: "&a你获得了 %xp% 经验值"
+
+# 加血消息
+health_add:
+  enabled: true
+  title: "&c生命回复"
+  subtitle: "&a你获得了额外的生命值"
+  message: "&e[BedWars] &a全体玩家获得了额外的生命值！"
+
+# 道具消息
+items:
+  self_rescue_platform:
+    used: "&a你使用了自救平台"
+    cooldown: "&c自救平台冷却中，还需 %time% 秒"
+  parachute:
+    used: "&a你使用了降落伞"
+  magic_wool:
+    used: "&a你使用了魔法羊毛"
+  return_scroll:
+    used: "&a你使用了回城卷轴"
+    cancelled: "&c回城已取消"
+    success: "&a你已成功回城"
+    cooldown: "&c回城卷轴冷却中，还需 %time% 秒"
+
+# 战绩系统消息
+combat_system:
+  level_up: "&a恭喜升级！"
+  new_level: "&e你现在是 %level%"
+
+# 变量消息
+variables:
+  error: "&c变量解析错误"
+
+# 商店消息
+shop:
+  item_added: "&a物品已添加到商店"
+  item_removed: "&a物品已从商店移除"
+
+# 语言消息
+language:
+  changed: "&a语言已切换为 %lang%"
+  not_supported: "&c语言 %lang% 不被支持"
+  current: "&a当前语言：%lang%"

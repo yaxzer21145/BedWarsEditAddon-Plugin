@@ -1,0 +1,28 @@
+# 加血事件配置
+
+# 加血次数（1-2）
+health_add_count: 2
+
+# 第一次加血时间（分钟）
+first_health_add_time: 15
+
+# 第二次加血时间（分钟）
+second_health_add_time: 35
+
+# 每次加血的血量（半颗心为单位，5颗心=10）
+health_amount: 10
+
+# 标题信息
+title:
+  text: "&c生命回复"
+  stay: 20
+
+# 副标题信息
+subtitle:
+  text: "&a你获得了额外的生命值"
+  stay: 20
+
+# 聊天栏信息
+message:
+  text: "&e[BedWars] &a全体玩家获得了额外的生命值！"
+  enabled: true

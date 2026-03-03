@@ -1,0 +1,31 @@
+# 主配置文件
+
+# 插件版本
+version: 1.1.0
+
+# 作者
+author: ya_xzer21145
+
+# 语言配置
+language:
+  # 默认语言 (zh_CN 或 en_US)
+  default: zh_CN
+  # 支持的语言列表
+  supported: ["zh_CN", "en_US"]
+
+# 功能开关
+enabled_features:
+  # 资源转换为经验
+  resource_to_exp: true
+  # 加血事件
+  health_add: true
+  # 新增道具
+  new_items: true
+  # 搭桥蛋修改
+  bridge_egg_modify: true
+  # 战绩系统
+  combat_system: true
+  # 变量系统
+  variable_system: true
+  # 自定义计分板 (覆盖BedWars1058计分板)
+  custom_scoreboard: true

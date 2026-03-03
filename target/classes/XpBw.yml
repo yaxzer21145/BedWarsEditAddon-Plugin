@@ -1,0 +1,15 @@
+# 资源转换为经验等级配置
+
+# 经验等级配置 (1等级 = 1个经验等级)
+xp_values:
+  iron: 1      # 铁锭转换的等级
+  gold: 10     # 金锭转换的等级
+  emerald: 100 # 绿宝石转换的等级
+  # 钻石不转换，无需配置
+
+# 启用的竞技场类型
+enabled_arenas:
+  - "Solo"
+  - "Doubles"
+  - "Triples"
+  - "Squads"

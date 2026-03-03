@@ -1,0 +1,12 @@
+main: com.yaxzer.bwya.BedWarsYA
+version: 1.2.6
+name: BedWarsEditAddon
+author: ya_xzer21145
+api-version: 1.13
+depend: [BedWars1058]
+soft-depend: [PlaceholderAPI]
+commands:
+  bedwarseditaddon:
+    description: BedWarsEditAddon commands
+    usage: /bedwarseditaddon <subcommand>
+    aliases: [bwea, bedit]
